@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNO E-Sport | We are Ultimate Gaming Gear</title>
+    <!---Icon--->
+    <link rel="icon" type="ico" href="../../img/structure/icon.ico"/>
+    <!---CSS--->
+    <link href="../../css/product.css" rel="stylesheet"/>
+    <!---Bootstrap--->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #292c2e;">
+    <!---navbar--->
+    <div class="navbar" style="padding: 0px;">
+        <div class="col-md-1 left">
+            <a class="" href="../../index.html"><img src="../../img/structure/logo.png" class="nav-image" alt="logo"></a>
+        </div>
+        <div class="col-md right">
+            <div class="row-md nav-menutop">
+                <ul>
+                    <li><a href="https://www.signo-technology.com/"><img src="../../img/structure/menubar_signo.png" class="nav-menuimage" alt="signo"></a></li>
+                    <li class="blue"><a href="https://www.facebook.com/signotechnology/"><img src="../../img/structure/menubar_icon_facebook.png" class="nav-menuimage" alt="facebook"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCkXzln2U4f4AtxP_5_mdVfg"><img src="../../img/structure/menubar_icon_youtube.png" class="nav-menuimage" alt="youtube"></a></li>
+                </ul>
+            </div>
+            <div class="row-md nav-menubottom">
+                <ul>
+                    <li class="menu"><a class="a-menu" href="#">PRODUCTS</a>
+                        <ul>
+                            <li class="submenu"><a href="../mouse.html">MOUSE</a></li>
+                            <li class="submenu"><a href="../keyboard.html">KEYBOARD</a></li>
+                            <li class="submenu"><a href="../headphone.html">HEADPHONE</a></li>
+                            <li class="submenu"><a href="../gamepad.html">GAMEPAD</a></li>
+                            <li class="submenu"><a href="../mousemat.html">MOUSE MAT</a></li>
+                            <li class="submenu"><a href="../gameingfurniture.html">GAMING FURNITURE</a></li>
+                            <li class="submenu"><a href="../accessories.html">ACCESSORIES</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a class="a-menu" href="../../support.html">SUPPORT</a></li>
+                    <li class="menu"><a class="a-menu" href="../../service.html">SERVICE</a></li>
+                    <li class="menu"><a class="a-menu" href="../../shopping.html">SHOPPING ONLINE</a></li>
+                    <li class="menu"><a class="a-menu" href="../../contact.html">CONTACT US</a></li>
+                    <li class="menu"><a><img src="../../img/structure/search_icon.png" id="search" alt="search"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Body -->
+    <div id="wrapper">
+        <!-- <div class="container"> -->
+        <div class="page-content top-content px-5">
+            <div class="top-content">
+                <div class="row my-5">
+                    <div class="col-0 col-xl-1"></div>
+                    <div class="col-12 col-xl-5">
+                        <div class="mySlides fadein"><img src="../../img/product/headphone/hp-827/c1.png" style="width:100%"></div>
+                        <div class="mySlides fadein"><img src="../../img/product/headphone/hp-827/c2.png" style="width:100%"></div>
+                        <div class="mySlides fadein"><img src="../../img/product/headphone/hp-827/c3.png" style="width:100%"></div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)"><img src="../../img/product/back.png"></a>
+                        <a class="next" onclick="plusSlides(1)"><img src="../../img/product/next.png"></a>
+                        
+                        <div class="carous">
+                            <div class="incarous">
+                                <div class="dot margi"><img src="../../img/product/headphone/hp-827/c1.png" style="width:100%" onclick="currentSlide(1)"></div>
+                                <div class="dot margi"><img src="../../img/product/headphone/hp-827/c2.png" style="width:100%" onclick="currentSlide(2)"></div>
+                                <div class="dot"><img src="../../img/product/headphone/hp-827/c3.png" style="width:100%" onclick="currentSlide(3)"></div>
+                            </div>
+                        </div>
+                        <script>
+                            var slideIndex = 1;
+                            showSlides(slideIndex);
+                            
+                            function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                            }
+                            
+                            function currentSlide(n) {
+                            showSlides(slideIndex = n);
+                            }
+                            
+                            function showSlides(n) {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            var dots = document.getElementsByClassName("dot");
+                            if (n > slides.length) {slideIndex = 1}    
+                            if (n < 1) {slideIndex = slides.length}
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                            }
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";  
+                            dots[slideIndex-1].className += " active";
+                            }
+                        </script>
+                    </div>
+                    <div class="col-12 col-xl-5">
+                        <div class="product-detail-logo">
+                            <img src="../../img/product/headphone/hp-827/generation.png"/>
+                        </div>
+                        <div class="product-detail-description">
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>VIRTUAL 7.1 SURROUND SOUD</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>BUILT-IN RGB LIGHT DESIGN</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>9 MODE LIGHTING EFFECTS</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>VOLUME CONTROLLER</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>FULLY ADJUSTABLE AND DURABLE</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>LIGHT WEIGHT DESIGN</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>LEATHERETTE EAR CUSHIONS</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>RUBBER CORD WITH USB 2.0 PORT</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>CORD LENGTH 2.2 M.</span></li>
+                            </ul>
+                            <ul class="product-detail-list">
+                                <li class="product-detail-itm"><span>PLUG &amp; PLAY</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-0 col-xl-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content bottom-content">
+            <div class="product-detail-content">
+                <ul class="nav nav-pills flex-column flex-sm-row" id="myTab" role="tablist">
+                    <li class="nav-item flex-sm-fill text-sm-center">
+                        <a class="nav-link active" id="features-tab" data-toggle="tab" href="#features" role="tab" aria-controls="features" aria-selected="true">features</a>
+                    </li>
+                    <li class="nav-item flex-sm-fill text-sm-center">
+                        <a class="nav-link" id="specs-tab" data-toggle="tab" href="#specs" role="tab" aria-controls="specs" aria-selected="false">specs</a>
+                    </li>
+                    <li class="nav-item flex-sm-fill text-sm-center">
+                        <a class="nav-link" id="software-tab" data-toggle="tab" href="#software" role="tab" aria-controls="software" aria-selected="false">software</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
+                        <img src="../../img/product/headphone/hp-827/f1.png" class="img-fluid" alt="">
+                        <img src="../../img/product/headphone/hp-827/f2.png" class="img-fluid" alt="">
+                        <img src="../../img/product/headphone/hp-827/f3.png" class="img-fluid" alt="">
+                        <img src="../../img/product/headphone/hp-827/f4.png" class="img-fluid" alt="">
+                        <img src="../../img/product/headphone/hp-827/f5.png" class="img-fluid" alt="">
+                        <img src="../../img/product/headphone/hp-827/f6.png" class="img-fluid" alt="">
+                        <img src="../../img/product/headphone/hp-827/f7.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
+                        <div class="page-content">
+                            <div class="product-detail-spec">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Model Name</th>
+                                                        <td colspan="2" class="text-right">HP-827 BLAZERO</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Mic Type</th>
+                                                        <td colspan="2" class="text-right">Omni-directional</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Surround Sound</th>
+                                                        <td colspan="2" class="text-right">Virtual 7.1</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Mic Dimension</th>
+                                                        <td colspan="2" class="text-right">ϕ6.0x5.0mm.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Headset Type</th>
+                                                        <td colspan="2" class="text-right">Over-ear</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Mic Impedance</th>
+                                                        <td colspan="2" class="text-right">≤2.2KΩ</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Color Lighting</th>
+                                                        <td colspan="2" class="text-right">RGB Color</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Interface</th>
+                                                        <td colspan="2" class="text-right">USB 2.0</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Lighting Effects</th>
+                                                        <td colspan="2" class="text-right">9 Modes</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Cord Material</th>
+                                                        <td colspan="2" class="text-right">Rubber Cord</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Drivers</th>
+                                                        <td colspan="2" class="text-right">50mm</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Cord Length</th>
+                                                        <td colspan="2" class="text-right">2.2m.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Chipset</th>
+                                                        <td colspan="2" class="text-right">C-Media</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Ear Cushions Size</th>
+                                                        <td colspan="2" class="text-right">100mm.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Frequency Response</th>
+                                                        <td colspan="2" class="text-right">20-20000Hz</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Dimension (WxHxD)</th>
+                                                        <td colspan="2" class="text-right">180x230x100mm.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Max Input Power</th>
+                                                        <td colspan="2" class="text-right">20MW</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Product Weight</th>
+                                                        <td colspan="2" class="text-right">305g.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Sensitivity</th>
+                                                        <td colspan="2" class="text-right">107dB±3dB</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Software Enable</th>
+                                                        <td colspan="2" class="text-right">Yes</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Impedance</th>
+                                                        <td colspan="2" class="text-right">32Ω±15%</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Support</th>
+                                                        <td colspan="2" class="text-right">All Windows Versions</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">Mic Sensitivity</th>
+                                                        <td colspan="2" class="text-right">-36±3dB</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="software" role="tabpanel" aria-labelledby="software-tab">
+                        <div class="page-content">
+                            <div class="row">
+                                <div class="col-12 col-xl-6">
+                                    <img src="../../img/product/headphone/hp-827/software.png" class="img-fluid" alt="product-software"/>
+                                </div>
+                                <div class="col-12 col-xl-6">
+                                    <div class="col-5 pl-5">
+                                        <div class="row">
+                                            <h3>HP-827</h3>&nbsp;&nbsp;<h3 class="text-red mb-3">SOFTWARE</h3>
+                                        </div>
+                                    </div>
+                                    <div class="product-detail-description m-2">
+                                        <ul class="product-detail-list">
+                                            <li class="product-detail-itm"><span>Volume Control</span></li>
+                                        </ul>
+                                        <ul class="product-detail-list">
+                                            <li class="product-detail-itm"><span>Equalizer</span></li>
+                                        </ul>
+                                        <ul class="product-detail-list">
+                                            <li class="product-detail-itm"><span>7.1 Virtual</span></li>
+                                        </ul>
+                                        <ul class="product-detail-list">
+                                            <li class="product-detail-itm"><span>Magic Voice</span></li>
+                                        </ul>
+                                        <ul class="product-detail-list">
+                                            <li class="product-detail-itm"><span>Microphone Boost</span></li>
+                                        </ul>
+                                        <ul class="product-detail-list">
+                                            <li class="product-detail-itm"><span>Support all Windows Versions</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="details-dwnl text-left">
+                                        <a><img src="../../img/product/keyboard/download.png" class="img-fluid" alt="download"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Menu ----------------------------------------------------->
+    <div id="menu-product" class="footer-menu">
+        <div class="box-icon">
+            <div class="row mx-0">
+                <div class="col-12 col-md-4 col-lg-3 icon-col">
+                    <a href="../mouse.html" class="active">
+                        <div class="list-itm-icon">
+                            <img src="../../img/structure/footerbar/footerbar_1.png" class="img-icon"/>
+                            <img src="../../img/structure/footerbar/footerbar_1a.png" class="img-icon-active"/>
+                        </div>
+                        <div class="list-itm-title">
+                            <img src="../../img/structure/footerbar/footerbar_t1.png" class="img-icon-title"/>
+                            <img src="../../img/structure/footerbar/footerbar_t1a.png" class="img-icon-title-active"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 icon-col">
+                    <a href="../keyboard.html">
+                        <div class="list-itm-icon py-4">
+                            <img src="../../img/structure/footerbar/footerbar_2.png" class="img-icon"/>
+                            <img src="../../img/structure/footerbar/footerbar_2a.png" class="img-icon-active"/>
+                        </div>
+                        <div class="list-itm-title">
+                            <img src="../../img/structure/footerbar/footerbar_t2.png" class="img-icon-title"/>
+                            <img src="../../img/structure/footerbar/footerbar_t2a.png" class="img-icon-title-active"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 icon-col">
+                    <a href="../headphone.html">
+                        <div class="list-itm-icon">
+                            <img src="../../img/structure/footerbar/footerbar_3.png" class="img-icon"/>
+                            <img src="../../img/structure/footerbar/footerbar_3a.png" class="img-icon-active"/>
+                        </div>
+                        <div class="list-itm-title">
+                            <img src="../../img/structure/footerbar/footerbar_t3.png" class="img-icon-title"/>
+                            <img src="../../img/structure/footerbar/footerbar_t3a.png" class="img-icon-title-active"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 icon-col">
+                    <a href="../gamepad.html">
+                        <div class="list-itm-icon py-4">
+                            <img src="../../img/structure/footerbar/footerbar_4.png" class="img-icon"/>
+                            <img src="../../img/structure/footerbar/footerbar_4a.png" class="img-icon-active"/>
+                        </div>
+                        <div class="list-itm-title">
+                            <img src="../../img/structure/footerbar/footerbar_t4.png" class="img-icon-title"/>
+                            <img src="../../img/structure/footerbar/footerbar_t4a.png" class="img-icon-title-active"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 icon-col">
+                    <a href="../mousemat.html">
+                        <div class="list-itm-icon py-4">
+                            <img src="../../img/structure/footerbar/footerbar_5.png" class="img-icon"/>
+                            <img src="../../img/structure/footerbar/footerbar_5a.png" class="img-icon-active"/>
+                        </div>
+                        <div class="list-itm-title">
+                            <img src="../../img/structure/footerbar/footerbar_t5.png" class="img-icon-title"/>
+                            <img src="../../img/structure/footerbar/footerbar_t5a.png" class="img-icon-title-active"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 icon-col">
+                    <a href="../gameingfurniture.html">
+                        <div class="list-itm-icon">
+                            <img src="../../img/structure/footerbar/footerbar_6.png" class="img-icon"/>
+                            <img src="../../img/structure/footerbar/footerbar_6a.png" class="img-icon-active"/>
+                        </div>
+                        <div class="list-itm-title">
+                            <img src="../../img/structure/footerbar/footerbar_t6.png" class="img-icon-title"/>
+                            <img src="../../img/structure/footerbar/footerbar_t6a.png" class="img-icon-title-active"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 icon-col">
+                    <a href="../accessories.html">
+                        <div class="list-itm-icon">
+                            <img src="../../img/structure/footerbar/footerbar_7.png" class="img-icon"/>
+                            <img src="../../img/structure/footerbar/footerbar_7a.png" class="img-icon-active"/>
+                        </div>
+                        <div class="list-itm-title">
+                            <img src="../../img/structure/footerbar/footerbar_t7.png" class="img-icon-title"/>
+                            <img src="../../img/structure/footerbar/footerbar_t7a.png" class="img-icon-title-active"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer ---------------------------------------------------->
+    <footer class="">
+        <div class="px-4">
+            <div class="row">
+                <div class="ft-boxed col-6 col-lg-2">
+                    <h5 class="ft-title text-red">CUSTOMER SERVICES</h5>
+                    <ul class="ft-list">
+                        <li class="ft-item">
+                            <a href="../../support.html" class="ft-link">Software/Driver</a>
+                        </li>
+                        <li class="ft-item">
+                            <a class="ft-link">Wallpaper</a>
+                        </li>
+                        <li class="ft-item">
+                            <a href="../../service.html" class="ft-link">Warranty</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ft-boxed col-6 col-lg-2">
+                    <h5 class="ft-title text-red">INFORMATION</h5>
+                    <ul class="ft-list">
+                        <li class="ft-item">
+                            <a href="../../index.html" class="ft-link">Home</a>
+                        </li>
+                        <li class="ft-item">
+                            <a href="../../contact.html" class="ft-link">Contact</a>
+                        </li>
+                        <li class="ft-item">
+                            <a href="../../shopping.html" class="ft-link">Shopping Online</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ft-boxed col-6 col-lg-2">
+                    <h5 class="ft-title text-red">FOLLOW US</h5>
+                    <ul class="ft-list">
+                        <li class="ft-item">
+                            <a href="https://www.facebook.com/signotechnology/" class="ft-link">Facebook Fanpage</a>
+                        </li>
+                        <li class="ft-item">
+                            <a href="https://www.youtube.com/channel/UCkXzln2U4f4AtxP_5_mdVfg" class="ft-link">Youtube Channel</a>
+                        </li>
+                        <li class="ft-item">
+                            <a href="http://www.signo-technology.com/" class="ft-link">Signo-Technology</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ft-boxed ml-md-auto col-6 col-lg-3 ml-lg-auto">
+                    <div class="ft-brand-logo">
+                        <img src="../../img/structure/Footer_img.png" class="img-fluid" alt="signo_e-sport"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
